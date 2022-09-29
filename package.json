@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/MaluRibeiro08/order_api_delivery-register/issues"
   },
-  "homepage": "https://github.com/MaluRibeiro08/order_api_delivery-register#readme"
+  "homepage": "https://github.com/MaluRibeiro08/order_api_delivery-register#readme",
+  "dependencies": {
+    "git-commit-msg-linter": "^4.2.1"
+  }
 }
