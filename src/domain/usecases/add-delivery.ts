@@ -1,6 +1,7 @@
 export interface AddDeliveryModel {
   sale: {
     external_id_sale: string
+    interal_id_sale?: number
   }
   address:
   {
