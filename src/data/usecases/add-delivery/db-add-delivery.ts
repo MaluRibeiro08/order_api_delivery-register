@@ -13,7 +13,9 @@ export class DbAddDelivery implements AddDelivery {
 
   async add (deliveryData: AddDeliveryModel): Promise<void> {
     // Finds city's id
+    console.log(deliveryData.address.id_city)
     deliveryData.address.id_city = await this.getCityRepository.getCityId(deliveryData.address.city)
+    console.log(deliveryData.address.id_city)
 
     return await this.addDeliveryRepository.add(deliveryData)
   }
