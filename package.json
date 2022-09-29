@@ -20,7 +20,9 @@
   "homepage": "https://github.com/MaluRibeiro08/order_api_delivery-register#readme",
   "dependencies": {
     "amqplib": "^0.10.3",
-    "git-commit-msg-linter": "^4.2.1"
+    "git-commit-msg-linter": "^4.2.1",
+    "knex": "^2.3.0",
+    "mysql2": "^2.3.3"
   },
   "devDependencies": {
     "@types/amqplib": "^0.8.2",
