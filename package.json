@@ -1,9 +1,10 @@
 {
   "name": "order_api_delivery-register",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000o\u0000r\u0000d\u0000e\u0000r\u0000_\u0000a\u0000p\u0000i\u0000_\u0000d\u0000e\u0000l\u0000i\u0000v\u0000e\u0000r\u0000y\u0000-\u0000r\u0000e\u0000g\u0000i\u0000s\u0000t\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/main/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,12 +23,14 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.23",
-    "typescript": "^4.8.4",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "eslint": "^8.23.0",
     "eslint-config-standard-with-typescript": "^22.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.5",
-    "eslint-plugin-promise": "^6.0.1"
+    "eslint-plugin-promise": "^6.0.1",
+    "nodemon": "^2.0.20",
+    "sucrase": "^3.27.0",
+    "typescript": "^4.8.4"
   }
 }
