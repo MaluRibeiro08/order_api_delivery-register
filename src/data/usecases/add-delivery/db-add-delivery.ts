@@ -19,10 +19,9 @@ export class DbAddDelivery implements AddDelivery {
     deliveryData.address.id_city = await this.getCityRepository.getCityId(deliveryData.address.city)
 
     // Finds sales's internal id
-    console.log(deliveryData.sale.interal_id_sale)
     deliveryData.sale.interal_id_sale = await this.getSaleRepository.getSaleInternalId(deliveryData.sale.external_id_sale)
-    console.log(deliveryData.sale.interal_id_sale)
 
+    // Adds delivery
     return await this.addDeliveryRepository.add(deliveryData)
   }
 }
