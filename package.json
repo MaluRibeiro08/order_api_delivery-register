@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/MaluRibeiro08/order_api_delivery-register#readme",
   "dependencies": {
+    "amqplib": "^0.10.3",
     "git-commit-msg-linter": "^4.2.1"
   },
   "devDependencies": {
+    "@types/amqplib": "^0.8.2",
     "@types/node": "^18.7.23",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "eslint": "^8.23.0",
