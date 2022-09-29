@@ -9,6 +9,7 @@ export interface AddDeliveryModel {
     street: string
     neighborhood: string
     city: string
+    id_city?: number
     uf: string
     complement: string
     reference: string
